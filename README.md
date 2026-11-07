@@ -4,7 +4,7 @@ TypeScript library that classifies the public Stellar history of an address into
 
 **Accounting export, not tax advice.** Tax rules differ by country, and classification can be wrong. Events the library does not understand are returned as `unknown`, never hidden.
 
-**Status:** early. Read-only: it never holds keys, signs or sends anything. It is not published to npm yet.
+**Status:** early (0.x, the API may still change). Read-only: it never holds keys, signs or sends anything. Published to npm as [`@veronicdev/ledgertax-core`](https://www.npmjs.com/package/@veronicdev/ledgertax-core); see [CHANGELOG.md](CHANGELOG.md).
 
 ## What works today
 
@@ -21,6 +21,16 @@ See [docs/CLASSIFICATION.md](docs/CLASSIFICATION.md) for exactly what each event
 
 - Only one network source exists (Horizon). The public SDF Horizon keeps about one year of history, so older cost basis is missing; report that range via `coverage()`.
 - Liquidity pools, Soroban contract events, several linked addresses, mainnet use end to end: not implemented.
+
+## Install
+
+```bash
+npm install @veronicdev/ledgertax-core
+# or
+pnpm add @veronicdev/ledgertax-core
+```
+
+Needs Node.js 22.12 or later. It brings in `@stellar/stellar-sdk` and `zod` as dependencies.
 
 ## Usage
 
