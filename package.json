@@ -1,9 +1,15 @@
 {
-  "name": "ledgertax-core",
-  "version": "0.0.0",
+  "name": "@veronicdev/ledgertax-core",
+  "version": "0.1.0",
   "description": "Library that fetches Stellar history through a pluggable source and classifies operations into typed events.",
   "license": "MIT",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ledger-Tax/ledgertax-core.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

@@ -1,5 +1,5 @@
 /** Package name, used by the smoke test to prove the build and test pipeline works. */
-export const PACKAGE_NAME = 'ledgertax-core' as const;
+export const PACKAGE_NAME = '@veronicdev/ledgertax-core' as const;
 
 export { isLikelySecretKey, parseStellarAddress } from './address.js';
 export type { ParsedAddress } from './address.js';
