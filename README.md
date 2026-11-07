@@ -25,7 +25,7 @@ See [docs/CLASSIFICATION.md](docs/CLASSIFICATION.md) for exactly what each event
 ## Usage
 
 ```ts
-import { HorizonSource, classifyAccount } from 'ledgertax-core';
+import { HorizonSource, classifyAccount } from '@veronicdev/ledgertax-core';
 
 const source = new HorizonSource({ baseUrl: process.env.HORIZON_URL ?? '' }); // or FixtureSource / your own
 try {
