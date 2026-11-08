@@ -1,6 +1,6 @@
 {
   "name": "@veronicdev/ledgertax-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library that fetches Stellar history through a pluggable source and classifies operations into typed events.",
   "license": "MIT",
   "repository": {
