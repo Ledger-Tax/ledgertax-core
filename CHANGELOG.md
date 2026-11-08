@@ -4,9 +4,13 @@ All notable changes to `@veronicdev/ledgertax-core` are listed here. The format 
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-08
+
+Documentation only; the code is the same as 0.1.0.
+
 ### Changed
 
-- README: install section and current status. (The README shown on npmjs.com for 0.1.0 still says the package is not published; the next release corrects it.)
+- README: install section and current status. The README shown on npmjs.com for 0.1.0 said the package was not published yet.
 
 ## [0.1.0] - 2026-11-07
 
@@ -22,5 +26,6 @@ First published version.
 - Typed errors: `LedgerTaxError`, `InvalidAddressError`, `SecretKeyInputError`, `MalformedRecordError`, `AccountNotFoundError`, `HorizonHttpError`, `HorizonResponseError`, `StreamInterruptedError`, `FixtureFormatError`, `FixtureNotFoundError`, `InvalidCursorError`.
 - ESM and CommonJS builds with type declarations.
 
-[Unreleased]: https://github.com/Ledger-Tax/ledgertax-core/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/Ledger-Tax/ledgertax-core/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/Ledger-Tax/ledgertax-core/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/Ledger-Tax/ledgertax-core/releases/tag/v0.1.0
